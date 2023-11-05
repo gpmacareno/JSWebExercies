@@ -1,0 +1,106 @@
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.javascript {
+  height: 100px;
+}
+
+.logo {
+  margin-left: -40px;
+  height: 100px;
+}
+
+nav {
+  float: left;
+  width: 200px;
+  padding: 10px;
+}
+
+nav button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+section {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+body {
+  background-color: PeachPuff
+}
+
+.boton {
+  box-shadow: inset 0px 1px 0px 0px #fbafe3;
+  background: linear-gradient(to bottom, #e9963c 5%, #f0b952 100%);
+  background-color: #ff5bb0;
+  border-radius: 6px;
+  border: 1px solid #000000;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #c70067;
+}
+.boton:hover {
+  background: linear-gradient(to bottom, #fa8101 5%, #855701 100%);
+  background-color: #ef027d;
+}
+.boton:active {
+  position: relative;
+  top: 1px;
+}
+
+.contenidos {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.cuadrito {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin: 10px;
+  border: 4px solid black;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0; 
+  padding: 10px;
+}
+
+.bandera {
+  transform: translateY(50px);
+  transform: translateX(150px);
+  width: 100px; 
+  height: auto; 
+}
+
+#seguridad {
+  margin-top: 150px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profesor {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+}
+
